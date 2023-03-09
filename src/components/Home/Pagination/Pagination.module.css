@@ -1,0 +1,26 @@
+.pages{
+    height: 8vh;
+    padding-top: 1%;
+    /* background: #162877; */
+    /* background-image: url('../../../assets/country.jpg'); */
+}
+
+.btn{
+   color: black;
+    margin-right: -2%;
+    margin-bottom: 1%;
+    color: white;
+    font-size: 50%;
+}
+
+.active{
+    background: red;
+    box-shadow: 0 0 18px red;
+}
+
+.footer{
+    background: black;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 2px;
+}

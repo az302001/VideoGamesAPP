@@ -1,0 +1,206 @@
+
+.contentnadvar{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+}
+
+.contentTitle{
+    width: 80vw;
+}
+
+
+
+.container{
+    background: url(../../assets/fondo\ de\ detalle.jpg);
+    background-size: cover;
+    color: white;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+
+.title{
+    text-shadow: 0 0 20px orange;
+    width: 100%;
+    font-size: 400%;
+    /* position: absolute; */
+    margin-left: 25%;
+    padding-top: 6%;
+}
+
+
+.imagen{
+    width: 60vw;
+    height: 70vh;
+    cursor:pointer;
+    object-fit: cover;
+    padding-top: 12%;
+    margin-left: 2%;
+    
+}
+
+.contentimage{
+    width: 50%;
+    /* height: 100%; */
+}
+
+.detail{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+  
+}
+
+
+.cotentinfo{
+    /* width: 50%; */
+    height: 100%;
+    /* background: black; */
+    justify-items: center;
+    padding-top: 10%;
+    padding-left: 18%;
+}
+
+.contentbo{
+    width: 20vw;
+   padding-top: 2%;
+   text-decoration: none;
+}
+/* .button{
+    color: white;
+} */
+
+.button {
+    padding: 20px 60px;
+    background-color: #17089d;
+    border-radius: 20px;
+    font-size: 10px;
+    position: relative;
+    /* overflow: hidden; */
+    transition: 500ms;
+    text-decoration: none;
+    color:white;
+
+  }
+  
+  .button span {
+    color: white ;
+    position: relative;
+    transition: 500ms;
+    transition-delay: 500ms;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+  }
+  
+  .button:before {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 0%;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    bottom: 50%;
+    transition: 500ms;
+    transition-delay: 500ms;
+    background-color: red;
+    box-shadow: 0 0 10px red,
+     0 0 30px red, 
+     0 0 50px red;
+     border-radius: 20px;
+  }
+  
+  .button div {
+    transition: 500ms;
+    position: absolute;
+    background-color: red;
+    box-shadow: 0 0 15px red, 0 0 30px red, 0 0 50px red;
+  }
+  
+  .button .top {
+    width: 15px;
+    height: 2px;
+    top: 0;
+    left: 0;
+  }
+  
+  .button .bottom {
+    width: 15px;
+    height: 2px;
+    bottom: 0;
+    right: 0;
+  }
+  
+  .button .left {
+    width: 2px;
+    height: 15px;
+    top: 0;
+    left: 0;
+  }
+  
+  .button .right {
+    width: 2px;
+    height: 15px;
+    bottom: 0;
+    right: 0;
+  }
+  
+  .button:hover {
+    color: #000;
+  }
+  
+  .button:hover span {
+    color: #000;
+  }
+  
+  .button:hover:before {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .button:hover .top, 
+  .button:hover .bottom {
+    width: 100%;
+  }
+  
+  .button:hover .left,
+  .button:hover .right {
+    height: 100%;
+  }
+
+  .continents{
+    font-size:180% ;
+  }
+
+  .capital{
+    font-size:180% ;
+  }
+
+
+.subregion{
+    font-size:180% ;
+}
+
+.area{
+    font-size:180% ;
+}
+
+.poblacion{
+    font-size:180% ;
+}
+
+
+
+
+

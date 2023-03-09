@@ -1,0 +1,13 @@
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    max-width: 100%;
+    min-height: 73.5vh;
+    justify-content: center;
+    /* background: #0746a6; */
+    background-image: url('../../assets/country02.jpg');
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    gap: 15px;
+}

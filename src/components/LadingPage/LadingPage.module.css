@@ -1,0 +1,179 @@
+.landing {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* .boton {
+    padding: 8px;
+    margin-bottom: 100px;
+    color: rgb(17, 17, 225);
+    text-decoration: none;
+    cursor: pointer;
+    backdrop-filter: blur(30px);
+    width: 15%;
+    font-size: 120%;
+    font-weight: bold;
+    box-shadow: 0 0 25px white;
+    position: absolute;
+    margin-top: 20px;
+    z-index: 10;
+    margin-left: 15%;
+
+}
+
+.boton:hover {
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 55px rgb(6, 2, 255);
+} */
+
+.titulo {
+    color: white;
+    text-shadow: 0 0 20px orange;
+    margin: 0;
+    padding-top: 1%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.contenName{
+    width: 100%;
+    height: 10vh;
+    background: black ;
+   
+}
+
+.contentBotom{
+    width: 100%;
+    height: 10vh;
+    background: black ;
+    position: absolute;
+}
+
+
+
+.video02{
+    width: 100%;
+}
+
+.subtitulo{
+    color: white;
+    text-shadow: 0 0 40px rgb(250, 0, 0);
+    margin-top: 1%;
+    margin-left: 32%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+  .contentvideo {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+     /* establece la relación de aspecto */
+  }
+  
+  .video {
+    position: absolute;
+    width: 100%;
+    /* height: 100%; */
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+
+
+.btn95,
+.btn95 *,
+.btn95 :after,
+.btn95 :before,
+.btn95:after,
+.btn95:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.btn95 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #000;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  text-transform: uppercase;
+  position: absolute;
+  margin-left: 90%;
+  box-shadow: 0 0 18px orange;
+}
+.btn95:disabled {
+  cursor: default;
+}
+.btn95:-moz-focusring {
+  outline: auto;
+}
+.btn95 svg {
+  vertical-align: middle;
+}
+.btn95 [hidden] {
+  display: none;
+}
+.btn95 {
+  /* background: hsla(0, 0%, 4%, 0.945); */
+  background-clip: content-box;
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: block;
+  height: 60px;
+  -webkit-mask-image: none;
+  padding: 0;
+  position: relative;
+  transition: 0.2s;
+  width: 60px;
+  margin-top: 10px;
+  text-decoration: none;
+}
+.btn95:hover {
+  /* background: #fff; */
+  background:orange;
+}
+.btn95 svg {
+  --size: 30px;
+  fill: #fff;
+  display: flex;
+  height: var(--size);
+  left: calc(50% - var(--size) / 2);
+  position: absolute;
+  top: calc(50% - var(--size) / 2);
+  width: var(--size);
+}
+.btn95:hover svg {
+  fill: #000;
+}
+.btn95:before {
+  border: 5px solid #fff;
+  border-radius: 50%;
+  content: "";
+  inset: 1px;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  transform: scale(2);
+  transition: 0.2s;
+}
+.btn95:hover:before {
+  opacity: 1;
+  transform: scale(1);
+}
+

@@ -1,0 +1,12 @@
+.title {
+    margin-top: -2%;
+    color: white;
+    font-size: 150%;
+    text-shadow: 0 0 35px orange;
+
+}
+.navbar{
+    background: black;
+    height: 10vh;
+    margin: 0;
+}
